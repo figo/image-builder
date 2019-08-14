@@ -26,7 +26,7 @@
     allow_downgrade: True
   vars:
     packages:
-      - "kubelet-{{ kubernetes_version | kube_platform_version('redhat') }}"
-      - "kubeadm-{{ kubernetes_version | kube_platform_version('redhat') }}"
-      - "kubectl-{{ kubernetes_version | kube_platform_version('redhat') }}"
-      - "kubernetes-cni-{{kubernetes_cni_version | kube_platform_version('redhat')}}"
+      - "kubelet-{{ kubernetes_rpm_version }}"
+      - "kubeadm-{{ kubernetes_rpm_version }}"
+      - "kubectl-{{ kubernetes_rpm_version }}"
+      - "kubernetes-cni-{{kubernetes_cni_rpm_version }}"

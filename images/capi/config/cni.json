@@ -1,5 +1,6 @@
 {
     "kubernetes_cni_semver": "v0.7.5",
-    "kubernetes_cni_version": "0.7.5-00",
+    "kubernetes_cni_deb_version": "0.7.5+vmware.1-1",
+    "kubernetes_cni_rpm_version": "0.7.5-1.el7.vmware.1",
     "kubernetes_cni_source": "pkg"
 }

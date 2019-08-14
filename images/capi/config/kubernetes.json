@@ -1,10 +1,11 @@
 {
-  "kubernetes_semver": "v1.13.6",
-  "kubernetes_version": "1.13.6-00",
+  "kubernetes_semver": "v1.15.2",
+  "kubernetes_deb_version": "1.15.2+vmware.1-1",
+  "kubernetes_rpm_version": "1.15.2-1.el7.vmware.1",
   "kubernetes_source": "pkg",
-  "kubernetes_rpm_repo": "https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64",
-  "kubernetes_rpm_gpg_key": "\"https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg\"",
+  "kubernetes_rpm_repo": "https://downloads.heptio.com/essential-pks/523a448aa3e9a0ef93ff892dceefee0a/rpms/",
+  "kubernetes_rpm_gpg_key": "https://packages.vmware.com/tools/keys/VMWARE-PACKAGING-GPG-RSA-KEY.pub",
   "kubernetes_rpm_gpg_check": "True",
-  "kubernetes_deb_repo": "\"https://apt.kubernetes.io/ kubernetes-xenial\"",
-  "kubernetes_deb_gpg_key": "https://packages.cloud.google.com/apt/doc/apt-key.gpg"
+  "kubernetes_deb_repo": "\"https://downloads.heptio.com/essential-pks/523a448aa3e9a0ef93ff892dceefee0a/debs/ stable\"",
+  "kubernetes_deb_gpg_key": "https://packages.vmware.com/tools/keys/VMWARE-PACKAGING-GPG-RSA-KEY.pub"
 }
