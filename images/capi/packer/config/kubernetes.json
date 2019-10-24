@@ -1,8 +1,8 @@
 {
-  "kubernetes_series": "v1.16.1",
-  "kubernetes_semver": "v1.16.1+vmware.1.3498225",
-  "kubernetes_rpm_version": "1.16.1-0",
-  "kubernetes_deb_version": "1.16.1-00",
+  "kubernetes_series": "v1.16.2",
+  "kubernetes_semver": "v1.16.2+vmware.1.1",
+  "kubernetes_rpm_version": "1.16.2-0",
+  "kubernetes_deb_version": "1.16.2-00",
   "kubernetes_source_type": "http",
   "kubernetes_http_source": "https://build-artifactory.eng.vmware.com/kscom-generic-local/staging/kubernetes",
   "kubernetes_rpm_repo": "https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64",
