@@ -152,7 +152,8 @@
       "custom_data": {
         "containerd_version": "{{user `containerd_version`}}",
         "kubernetes_cni_version": "{{user `kubernetes_cni_semver`}}",
-        "kubernetes_version": "{{user `kubernetes_semver`}}"
+        "kubernetes_version": "{{user `kubernetes_semver`}}",
+        "custom_role": "{{user `custom_role`}}"
       }
     }
   ]
